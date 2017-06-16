@@ -1,0 +1,37 @@
+{
+    "name": "sass-cli",
+    "version": "0.0.1",
+    "description": "CLI tool for Sass/SCSS",
+    "scripts": {
+        "test": "mocha",
+        "postinstall": "lib/link.js"
+    },
+    "author": "Ravi Dhiman",
+    "license": "MIT",
+    "main": "bin/sass-cli.js",
+    "preferGlobal": true,
+    "bin": {
+        "sass_cli": "./bin/sass-cli.js"
+    },
+    "dependencies": {
+        "commander": "^2.9.0",
+        "linebyline": "^1.3.0",
+        "mkdirp": "^0.5.1",
+        "path": "^0.12.7",
+        "read-file": "^0.2.0",
+        "readline": "^1.3.0",
+        "sorted-object": "^2.0.1",
+        "util": "^0.10.3",
+        "write": "^0.3.3"
+    },
+    "devDependencies": {
+        "eslint": "3.18.0",
+        "eslint-config-standard": "7.1.0",
+        "eslint-plugin-promise": "3.5.0",
+        "eslint-plugin-standard": "2.1.1",
+        "mocha": "2.5.3",
+        "rimraf": "2.5.4",
+        "supertest": "1.2.0",
+        "validate-npm-package-name": "2.2.2"
+    }
+}
