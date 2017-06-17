@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+[![Sass-cli logo](/assets/logo.png?raw=true)](https://ravid7000.github.io/sass-cli/)
 
-You can use the [editor on GitHub](https://github.com/ravid7000/sass-cli/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# sass-cli
+CLI tool for Sass/SCSS
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Installation
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+$ npm install -g @sass/cli
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+---
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ravid7000/sass-cli/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Quick Start
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The quickest way to get started with sass-cli is to utilize the executable `sass(1)` to generate an application as shown below:
+
+Create the app:
+
+```bash
+$ sass-cli new foo
+```
+
+Create sass app:
+
+```bash
+$ sass-cli new foo --sass
+```
+
+---
+
+
+
+Install dependencies:
+
+```bash
+$ npm install
+```
+
+---
+
+
+
+### Compile your styles:
+
+```bash
+$ npm start
+```
+
+```bash
+$ grunt watch
+```
+
+### Generate component:
+
+```bash
+$ sass-cli g foo
+```
+
+---
+
+
+
+### Command Line Options
+
+This cli can also be further configured with the following command line flags.
+
+    -h, --help          output usage information
+        --version       output the version number
+        new [value]     create new sass/scss project
+    -s, --sass          use sass stylesheet (defaults to scss)
+    -u, --unit          specify units (px|em|rem) (defaults to px)
+    g,  generate        generate component
+    -f, --force         force on non-empty directory
+
+### License
+
+[MIT](LICENSE)
+
