@@ -10,7 +10,7 @@ CLI tool for Sass/SCSS
 ### Installation
 
 ```sh
-$ npm install -g @sass/cli
+$ npm install -g sass-cli
 ```
 
 ---
