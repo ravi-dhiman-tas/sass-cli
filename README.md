@@ -4,6 +4,8 @@
 # sass-cli
 CLI tool for Sass/SCSS
 
+[![Build Status](https://travis-ci.org/ravid7000/sass-cli.svg?branch=master)](https://travis-ci.org/ravid7000/sass-cli)
+
 
 ### Installation
 
