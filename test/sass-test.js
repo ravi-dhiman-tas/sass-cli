@@ -9,7 +9,7 @@ var spawn = require('child_process').spawn
 var validateNpmName = require('validate-npm-package-name')
 
 var PKG_PATH = path.resolve(__dirname, '..', 'package.json')
-var BIN_PATH = path.resolve(path.dirname(PKG_PATH), require(PKG_PATH).bin.sass_cli)
+var BIN_PATH = path.resolve(path.dirname(PKG_PATH), require(PKG_PATH).bin.sasscli)
 var TEMP_DIR = path.resolve(__dirname, '..', 'temp', String(process.pid + Math.random()))
 
 describe('sass(1)', function () {
@@ -73,7 +73,7 @@ describe('sass(1)', function () {
             var contents = fs.readFileSync(file, 'utf8')
             assert.equal(contents, '{\n' +
                 '  "name": "sass(1)-(no-args)",\n' +
-                '  "cli_version": "0.1.1",\n' +
+                '  "cli_version": "0.1.2",\n' +
                 '  "path": ".",\n' +
                 '  "type": "scss"\n' +
                 '}\n')

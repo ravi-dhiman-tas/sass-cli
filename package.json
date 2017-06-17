@@ -1,16 +1,16 @@
 {
     "name": "sass-cli",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "CLI tool for Sass/SCSS",
     "scripts": {
-        "test": "mocha",
-        "postinstall": "./lib/link.js"
+        "test": "mocha"
     },
     "keywords": [
         "sass",
         "cli",
         "sass-cli",
         "scss",
+        "sasscli",
         "sass/scss"
     ],
     "repository": {
@@ -25,7 +25,7 @@
     "main": "bin/sass-cli",
     "preferGlobal": true,
     "bin": {
-        "sass_cli": "./bin/sass-cli"
+        "sasscli": "./bin/sasscli"
     },
     "dependencies": {
         "commander": "^2.9.0",
