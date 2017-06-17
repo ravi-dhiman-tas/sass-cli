@@ -16,6 +16,9 @@
         "type": "git",
         "url": "https://github.com/ravid7000/sass-cli.git"
     },
+    "bugs": {
+        "url": "https://github.com/ravid7000/sass-cli/issues"
+    },
     "author": "Ravi Dhiman",
     "license": "MIT",
     "main": "bin/sass-cli",
