@@ -1,17 +1,27 @@
 {
-    "name": "sass-cli",
+    "name": "@sass/cli",
     "version": "0.0.1",
     "description": "CLI tool for Sass/SCSS",
     "scripts": {
-        "test": "mocha",
-        "postinstall": "lib/link.js"
+        "test": "mocha"
+    },
+    "keywords": [
+        "sass",
+        "cli",
+        "sass-cli",
+        "scss",
+        "sass/scss"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ravid7000/sass-cli.git"
     },
     "author": "Ravi Dhiman",
     "license": "MIT",
-    "main": "bin/sass-cli.js",
+    "main": "bin/sass-cli",
     "preferGlobal": true,
     "bin": {
-        "sass_cli": "./bin/sass-cli.js"
+        "sass_cli": "./bin/sass-cli"
     },
     "dependencies": {
         "commander": "^2.9.0",
