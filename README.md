@@ -1,4 +1,4 @@
-[![Sass-cli logo](/assets/logo.png?raw=true)](https://ravid7000.github.io/sass-cli/)
+[![Sass-cli logo](https://github.com/ravid7000/sass-cli/raw/master/assets/logo.png)](https://ravid7000.github.io/sass-cli/)
 
 
 # sass-cli
